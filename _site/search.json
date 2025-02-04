@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPPS 6354 - Hung Tran",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nplot (iris)\n\n\n\n\n\n\n\nplot (mtcars)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EPPS 6354 GitHub Website",
+    "section": "",
+    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
+  }
+]
