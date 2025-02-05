@@ -7,13 +7,6 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nplot (iris)\n\n\n\n\n\n\n\nplot (mtcars)"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "EPPS 6354 GitHub Website",
-    "section": "",
-    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
-  },
-  {
     "objectID": "assignment1.html",
     "href": "assignment1.html",
     "title": "Assignment 1",
@@ -47,5 +40,12 @@
     "title": "Assignment 1",
     "section": "1. Public Safety",
     "text": "1. Public Safety\n\nPurpose\n\n\nFunction\n\n\nInterface Design"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EPPS 6354 GitHub Website",
+    "section": "",
+    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
   }
 ]
