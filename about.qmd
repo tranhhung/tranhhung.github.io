@@ -1,9 +1,0 @@
----
-title: "EPPS 6354 GitHub Website"
----
-
-About this site
-
-```{r}
-"Hung Tran"
-```
