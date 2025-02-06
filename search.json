@@ -47,5 +47,26 @@
     "title": "EPPS 6354 - Hung Tran",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nplot (iris)\n\n\n\n\n\n\n\nplot (mtcars)"
+  },
+  {
+    "objectID": "assignment01.html#criminology",
+    "href": "assignment01.html#criminology",
+    "title": "ASSIGNMENT 1",
+    "section": "2. Criminology",
+    "text": "2. Criminology\nPublic Safety"
+  },
+  {
+    "objectID": "assignment01.html#section",
+    "href": "assignment01.html#section",
+    "title": "ASSIGNMENT 1",
+    "section": "2.",
+    "text": "2."
+  },
+  {
+    "objectID": "assignment01.html#healthcare-management",
+    "href": "assignment01.html#healthcare-management",
+    "title": "ASSIGNMENT 1",
+    "section": "1. Healthcare Management",
+    "text": "1. Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operation\n\n\n\nInterface Design\n\nLink insurance plan information (HMO, FSA, PPO)"
   }
 ]
