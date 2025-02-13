@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FINAL PROJECT – EPPS 6354 - GitHub Website</title>
+<title>ASSIGNMENT 2 – EPPS 6354 - GitHub Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,15 +137,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1">Question 1</a>
+  <ul class="collapse">
+  <li><a href="#relation-schema" id="toc-relation-schema" class="nav-link" data-scroll-target="#relation-schema">Relation Schema</a></li>
+  <li><a href="#relation" id="toc-relation" class="nav-link" data-scroll-target="#relation">Relation</a></li>
+  <li><a href="#relation-instance" id="toc-relation-instance" class="nav-link" data-scroll-target="#relation-instance">Relation Instance</a></li>
+  </ul></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-03" id="toc-question-03" class="nav-link" data-scroll-target="#question-03">Question 03</a>
+  <ul class="collapse">
+  <li><a href="#the-primary-keys" id="toc-the-primary-keys" class="nav-link" data-scroll-target="#the-primary-keys">1 - The primary keys</a></li>
+  <li><a href="#the-foreign-keys" id="toc-the-foreign-keys" class="nav-link" data-scroll-target="#the-foreign-keys">2- The foreign keys</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FINAL PROJECT</h1>
+<h1 class="title">ASSIGNMENT 2</h1>
 </div>
 
 
@@ -162,8 +179,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="question-1" class="level1">
+<h1>Question 1</h1>
+<section id="relation-schema" class="level2">
+<h2 class="anchored" data-anchor-id="relation-schema">Relation Schema</h2>
+<p>Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.</p>
+<p>Unlike relation instance, relation schema usually does not change over time.</p>
+<p>Example: university (school : string, building : string, contact : string)</p>
+</section>
+<section id="relation" class="level2">
+<h2 class="anchored" data-anchor-id="relation">Relation</h2>
+<p>A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.</p>
+<p>Example: university (school, building, email)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>School</th>
+<th>Building</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EPPS</td>
+<td>Green Hall</td>
+<td>469-123-4567</td>
+</tr>
+<tr class="even">
+<td>Engineering</td>
+<td>Erik Josson</td>
+<td>972-123-4567</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="relation-instance" class="level2">
+<h2 class="anchored" data-anchor-id="relation-instance">Relation Instance</h2>
+<p>Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.</p>
+<p>Example: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>School</th>
+<th>Building</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EPPS</td>
+<td>Green Hall</td>
+<td><strong><em>469-987-6543</em></strong></td>
+</tr>
+<tr class="even">
+<td>Engineering</td>
+<td>Erik Josson</td>
+<td>972-123-4567</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="question-2" class="level1">
+<h1>Question 2</h1>
+<p>Draw a schema diagram</p>
+<p><img src="images/clipboard-2016959080.png" class="img-fluid" width="513"></p>
+</section>
+<section id="question-03" class="level1">
+<h1>Question 03</h1>
+<section id="the-primary-keys" class="level2">
+<h2 class="anchored" data-anchor-id="the-primary-keys">1 - The primary keys</h2>
+<p><img src="images/clipboard-2984938948.png" class="img-fluid" width="492"></p>
+</section>
+<section id="the-foreign-keys" class="level2">
+<h2 class="anchored" data-anchor-id="the-foreign-keys">2- The foreign keys</h2>
+<p><img src="images/clipboard-3373306134.png" class="img-fluid" width="497"></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "EPPS 6354 GitHub Website",
-    "section": "",
-    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
-  },
-  {
     "objectID": "assignment01.html",
     "href": "assignment01.html",
     "title": "ASSIGNMENT 1",
@@ -39,20 +32,62 @@
     "href": "assignment01.html#healthcare-management",
     "title": "ASSIGNMENT 1",
     "section": "1. Healthcare Management",
-    "text": "1. Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operations.\n\n\n\nInterface Design\n\nLink insurance plan information (HMO, FSA, PPO)"
+    "text": "1. Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nTarget audience? fuction to serve that audience?\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operations.\n\n\n\nInterface Design\n\nLink insurance plan information (HMO, FSA, PPO)"
   },
   {
     "objectID": "assignment01.html#criminology",
     "href": "assignment01.html#criminology",
     "title": "ASSIGNMENT 1",
     "section": "2. Criminology",
-    "text": "2. Criminology\nPublic Safety"
+    "text": "2. Criminology\nPublic Safety\nOptional questions"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EPPS 6354 - Hung Tran",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EPPS 6354 GitHub Website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nplot (iris)\n\n\n\n\n\n\n\nplot (mtcars)"
+    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
+  },
+  {
+    "objectID": "assignment02.html",
+    "href": "assignment02.html",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)\n\n\n\nA relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567\n\n\n\n\n\n\nRelation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-schema",
+    "href": "assignment02.html#relation-schema",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)"
+  },
+  {
+    "objectID": "assignment02.html#relation",
+    "href": "assignment02.html#relation",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-instance",
+    "href": "assignment02.html#relation-instance",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#the-primary-keys",
+    "href": "assignment02.html#the-primary-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "1 - The primary keys",
+    "text": "1 - The primary keys"
+  },
+  {
+    "objectID": "assignment02.html#the-foreign-keys",
+    "href": "assignment02.html#the-foreign-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "2- The foreign keys",
+    "text": "2- The foreign keys"
   }
 ]
