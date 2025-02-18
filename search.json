@@ -31,15 +31,29 @@
     "objectID": "assignment01.html#healthcare-management",
     "href": "assignment01.html#healthcare-management",
     "title": "ASSIGNMENT 1",
-    "section": "1. Healthcare Management",
-    "text": "1. Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nTarget audience? fuction to serve that audience?\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operations.\n\n\n\nInterface Design\n\nLink insurance plan information (HMO, FSA, PPO)"
+    "section": "Healthcare Management",
+    "text": "Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nTarget audience? function to serve that audience?\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operations.\n\n\n\nInterface Design\n\nInput insurance plan (providers, plan type, account number)\nInput personal information\nInput facility location\nInput operation date and type"
   },
   {
-    "objectID": "assignment01.html#criminology",
-    "href": "assignment01.html#criminology",
+    "objectID": "assignment01.html#user-table",
+    "href": "assignment01.html#user-table",
     "title": "ASSIGNMENT 1",
-    "section": "2. Criminology",
-    "text": "2. Criminology\nPublic Safety\nOptional questions"
+    "section": "User table",
+    "text": "User table\nThe table stores personal information of the users, including username, date of birth, email, password."
+  },
+  {
+    "objectID": "assignment01.html#post-table",
+    "href": "assignment01.html#post-table",
+    "title": "ASSIGNMENT 1",
+    "section": "Post table",
+    "text": "Post table\nThe table has content created by the account owners, or the thread creators of the platfomr."
+  },
+  {
+    "objectID": "assignment01.html#reaction-table",
+    "href": "assignment01.html#reaction-table",
+    "title": "ASSIGNMENT 1",
+    "section": "Reaction table",
+    "text": "Reaction table\nThe table contain emocon sympbol for comments, including gif files, toward the post."
   },
   {
     "objectID": "about.html",
