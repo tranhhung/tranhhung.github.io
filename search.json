@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "assignment02.html",
+    "href": "assignment02.html",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)\n\n\n\nA relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567\n\n\n\n\n\n\nRelation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-schema",
+    "href": "assignment02.html#relation-schema",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)"
+  },
+  {
+    "objectID": "assignment02.html#relation",
+    "href": "assignment02.html#relation",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-instance",
+    "href": "assignment02.html#relation-instance",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#the-primary-keys",
+    "href": "assignment02.html#the-primary-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "1 - The primary keys",
+    "text": "1 - The primary keys"
+  },
+  {
+    "objectID": "assignment02.html#the-foreign-keys",
+    "href": "assignment02.html#the-foreign-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "2- The foreign keys",
+    "text": "2- The foreign keys"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EPPS 6354 GitHub Website",
+    "section": "",
+    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
+  },
+  {
+    "objectID": "assignment01.html",
+    "href": "assignment01.html",
+    "title": "ASSIGNMENT 1",
+    "section": "",
+    "text": "This is one of the most popular application in the US. It has actively collected and taken advantages of millions of their customers, including me, to advance their revenue. They have analysed my history purchases, and search to manipulate my shopping habit.\nThe history purchase provide them which products, manufacturers, price range, and categories I preferred to spend money on. Also, the time I usually went window shopping and decided to make payment is exposed to Amazon. According to those information, whenever I log into my Amazon account, the algorithms shows me a list of products, which they believe I will be interested to buy.\n\n\n\nLike Amazon, Facebook has collected my footprint on social media since I created an account on their platform. Everything I do on Facebook, from every pages or group I followed to every single thread I interacted via emocons or comments, gives out my personal references. It includes political bias, favorite images, destinations, and so on.\nHowever, unlike Amazon, Facebook usually sell my personal data to marketing firms. Those companies used those data to create a profile matching with all my preference. As a result, they can send out customized advertising campaigns or digital contents which might influence my decisions in their favor.\n\n\n\nNetflix has dominated streaming services for ages. Their revenue comes from monthly subscriptions around the world. The more users make commitment to their service every month, the more profit Netflix receive. Accordingly, they have analyzed my watching patterns.\n\nWhat types of movies or shows have I picked? Movies? Documentary series? Reality shows?\nWhat languages have I chosen for movies? with or without subtitle?\nWhich category have I preferred? Comedy? Horror? Fantasy?\n\nAll of those help them to offer me good recommendation, or plan a reasonable purchase in future. On my end, I might find it satisfied with the Netflix library and continue to pay monthly subscription."
+  },
+  {
+    "objectID": "assignment01.html#amazon",
+    "href": "assignment01.html#amazon",
+    "title": "ASSIGNMENT 1",
+    "section": "",
+    "text": "This is one of the most popular application in the US. It has actively collected and taken advantages of millions of their customers, including me, to advance their revenue. They have analysed my history purchases, and search to manipulate my shopping habit.\nThe history purchase provide them which products, manufacturers, price range, and categories I preferred to spend money on. Also, the time I usually went window shopping and decided to make payment is exposed to Amazon. According to those information, whenever I log into my Amazon account, the algorithms shows me a list of products, which they believe I will be interested to buy."
+  },
+  {
+    "objectID": "assignment01.html#facebook",
+    "href": "assignment01.html#facebook",
+    "title": "ASSIGNMENT 1",
+    "section": "",
+    "text": "Like Amazon, Facebook has collected my footprint on social media since I created an account on their platform. Everything I do on Facebook, from every pages or group I followed to every single thread I interacted via emocons or comments, gives out my personal references. It includes political bias, favorite images, destinations, and so on.\nHowever, unlike Amazon, Facebook usually sell my personal data to marketing firms. Those companies used those data to create a profile matching with all my preference. As a result, they can send out customized advertising campaigns or digital contents which might influence my decisions in their favor."
+  },
+  {
+    "objectID": "assignment01.html#netflix",
+    "href": "assignment01.html#netflix",
+    "title": "ASSIGNMENT 1",
+    "section": "",
+    "text": "Netflix has dominated streaming services for ages. Their revenue comes from monthly subscriptions around the world. The more users make commitment to their service every month, the more profit Netflix receive. Accordingly, they have analyzed my watching patterns.\n\nWhat types of movies or shows have I picked? Movies? Documentary series? Reality shows?\nWhat languages have I chosen for movies? with or without subtitle?\nWhich category have I preferred? Comedy? Horror? Fantasy?\n\nAll of those help them to offer me good recommendation, or plan a reasonable purchase in future. On my end, I might find it satisfied with the Netflix library and continue to pay monthly subscription."
+  },
+  {
+    "objectID": "assignment01.html#healthcare-management",
+    "href": "assignment01.html#healthcare-management",
+    "title": "ASSIGNMENT 1",
+    "section": "Healthcare Management",
+    "text": "Healthcare Management\n\nPurpose\nThe application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.\n\n\nFunctions\n\nTarget audience? function to serve that audience?\nList of medical facilities within the network, including ER and Emergency rooms\nList of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)\nList of FSA qualified items and operations.\n\n\n\nInterface Design\n\nInput insurance plan (providers, plan type, account number)\nInput personal information\nInput facility location\nInput operation date and type"
+  },
+  {
+    "objectID": "assignment01.html#user-table",
+    "href": "assignment01.html#user-table",
+    "title": "ASSIGNMENT 1",
+    "section": "User table",
+    "text": "User table\nThe table stores personal information of the users, including username, date of birth, email, password."
+  },
+  {
+    "objectID": "assignment01.html#post-table",
+    "href": "assignment01.html#post-table",
+    "title": "ASSIGNMENT 1",
+    "section": "Post table",
+    "text": "Post table\nThe table has content created by the account owners, or the thread creators of the platfomr."
+  },
+  {
+    "objectID": "assignment01.html#reaction-table",
+    "href": "assignment01.html#reaction-table",
+    "title": "ASSIGNMENT 1",
+    "section": "Reaction table",
+    "text": "Reaction table\nThe table contain emocon sympbol for comments, including gif files, toward the post."
+  },
+  {
+    "objectID": "assignment03.html",
+    "href": "assignment03.html",
+    "title": "ASSIGNMENT 3",
+    "section": "",
+    "text": "Syntax: select distinct ID from takes\n\n\n\n\nSyntax: select distinct ID, Name from instructor\n\n\n\n\nSyntax: select distinct dept_name as department, building from department"
+  },
+  {
+    "objectID": "assignment03.html#list-of-student-ids",
+    "href": "assignment03.html#list-of-student-ids",
+    "title": "ASSIGNMENT 3",
+    "section": "",
+    "text": "Syntax: select distinct ID from takes"
+  },
+  {
+    "objectID": "assignment03.html#list-of-instructors",
+    "href": "assignment03.html#list-of-instructors",
+    "title": "ASSIGNMENT 3",
+    "section": "",
+    "text": "Syntax: select distinct ID, Name from instructor"
+  },
+  {
+    "objectID": "assignment03.html#list-of-departments",
+    "href": "assignment03.html#list-of-departments",
+    "title": "ASSIGNMENT 3",
+    "section": "",
+    "text": "Syntax: select distinct dept_name as department, building from department"
+  }
+]
