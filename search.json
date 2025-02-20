@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "assignment02.html",
+    "href": "assignment02.html",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)\n\n\n\nA relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567\n\n\n\n\n\n\nRelation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-schema",
+    "href": "assignment02.html#relation-schema",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)"
+  },
+  {
+    "objectID": "assignment02.html#relation",
+    "href": "assignment02.html#relation",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#relation-instance",
+    "href": "assignment02.html#relation-instance",
+    "title": "ASSIGNMENT 2",
+    "section": "",
+    "text": "Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+  },
+  {
+    "objectID": "assignment02.html#the-primary-keys",
+    "href": "assignment02.html#the-primary-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "1 - The primary keys",
+    "text": "1 - The primary keys"
+  },
+  {
+    "objectID": "assignment02.html#the-foreign-keys",
+    "href": "assignment02.html#the-foreign-keys",
+    "title": "ASSIGNMENT 2",
+    "section": "2- The foreign keys",
+    "text": "2- The foreign keys"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EPPS 6354 GitHub Website",
+    "section": "",
+    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
+  },
+  {
     "objectID": "assignment01.html",
     "href": "assignment01.html",
     "title": "ASSIGNMENT 1",
@@ -56,52 +105,45 @@
     "text": "Reaction table\nThe table contain emocon sympbol for comments, including gif files, toward the post."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "EPPS 6354 GitHub Website",
+    "objectID": "assignment03.html",
+    "href": "assignment03.html",
+    "title": "ASSIGNMENT 3",
     "section": "",
-    "text": "About this site\n\n\"Hung Tran\"\n\n[1] \"Hung Tran\""
+    "text": "Syntax: select distinct ID from takes\n\n\n\n\nSyntax: select distinct Name from instructor\n\n\n\n\nSyntax: select distinct dept_name from department"
   },
   {
-    "objectID": "assignment02.html",
-    "href": "assignment02.html",
-    "title": "ASSIGNMENT 2",
+    "objectID": "assignment03.html#list-of-student-ids",
+    "href": "assignment03.html#list-of-student-ids",
+    "title": "ASSIGNMENT 3",
     "section": "",
-    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)\n\n\n\nA relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567\n\n\n\n\n\n\nRelation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+    "text": "Syntax: select distinct ID from takes"
   },
   {
-    "objectID": "assignment02.html#relation-schema",
-    "href": "assignment02.html#relation-schema",
-    "title": "ASSIGNMENT 2",
+    "objectID": "assignment03.html#list-of-instructors",
+    "href": "assignment03.html#list-of-instructors",
+    "title": "ASSIGNMENT 3",
     "section": "",
-    "text": "Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.\nUnlike relation instance, relation schema usually does not change over time.\nExample: university (school : string, building : string, contact : string)"
+    "text": "Syntax: select distinct Name from instructor"
   },
   {
-    "objectID": "assignment02.html#relation",
-    "href": "assignment02.html#relation",
-    "title": "ASSIGNMENT 2",
+    "objectID": "assignment03.html#list-of-departments",
+    "href": "assignment03.html#list-of-departments",
+    "title": "ASSIGNMENT 3",
     "section": "",
-    "text": "A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.\nExample: university (school, building, email)\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-123-4567\n\n\nEngineering\nErik Josson\n972-123-4567"
+    "text": "Syntax: select distinct dept_name from department"
   },
   {
-    "objectID": "assignment02.html#relation-instance",
-    "href": "assignment02.html#relation-instance",
-    "title": "ASSIGNMENT 2",
-    "section": "",
-    "text": "Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.\nExample: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.\n\n\n\nSchool\nBuilding\nContact\n\n\n\n\nEPPS\nGreen Hall\n469-987-6543\n\n\nEngineering\nErik Josson\n972-123-4567"
+    "objectID": "assignment03.html#list-of-id-and-name-of-student-taking-at-least-one-cs-course",
+    "href": "assignment03.html#list-of-id-and-name-of-student-taking-at-least-one-cs-course",
+    "title": "ASSIGNMENT 3",
+    "section": "List of ID and Name of student taking at least one CS course",
+    "text": "List of ID and Name of student taking at least one CS course\n(no duplicate name)\n\n\n\nAdd the grade to the list"
   },
   {
-    "objectID": "assignment02.html#the-primary-keys",
-    "href": "assignment02.html#the-primary-keys",
-    "title": "ASSIGNMENT 2",
-    "section": "1 - The primary keys",
-    "text": "1 - The primary keys"
-  },
-  {
-    "objectID": "assignment02.html#the-foreign-keys",
-    "href": "assignment02.html#the-foreign-keys",
-    "title": "ASSIGNMENT 2",
-    "section": "2- The foreign keys",
-    "text": "2- The foreign keys"
+    "objectID": "assignment03.html#question-4",
+    "href": "assignment03.html#question-4",
+    "title": "ASSIGNMENT 3",
+    "section": "Question 4",
+    "text": "Question 4"
   }
 ]

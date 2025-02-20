@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ASSIGNMENT 2 – EPPS 6354 - GitHub Website</title>
+<title>ASSIGNMENT 3 – EPPS 6354 - GitHub Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -146,17 +146,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1">Question 1</a>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link active" data-scroll-target="#question-2">Question 2</a>
   <ul class="collapse">
-  <li><a href="#relation-schema" id="toc-relation-schema" class="nav-link" data-scroll-target="#relation-schema">Relation Schema</a></li>
-  <li><a href="#relation" id="toc-relation" class="nav-link" data-scroll-target="#relation">Relation</a></li>
-  <li><a href="#relation-instance" id="toc-relation-instance" class="nav-link" data-scroll-target="#relation-instance">Relation Instance</a></li>
+  <li><a href="#list-of-student-ids" id="toc-list-of-student-ids" class="nav-link" data-scroll-target="#list-of-student-ids">List of student IDs</a></li>
+  <li><a href="#list-of-instructors" id="toc-list-of-instructors" class="nav-link" data-scroll-target="#list-of-instructors">List of Instructors</a></li>
+  <li><a href="#list-of-departments" id="toc-list-of-departments" class="nav-link" data-scroll-target="#list-of-departments">List of Departments</a></li>
   </ul></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
   <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a>
   <ul class="collapse">
-  <li><a href="#the-primary-keys" id="toc-the-primary-keys" class="nav-link" data-scroll-target="#the-primary-keys">1 - The primary keys</a></li>
-  <li><a href="#the-foreign-keys" id="toc-the-foreign-keys" class="nav-link" data-scroll-target="#the-foreign-keys">2- The foreign keys</a></li>
+  <li><a href="#i.-list-of-id-and-name-of-student-taking-at-least-one-cs-course" id="toc-i.-list-of-id-and-name-of-student-taking-at-least-one-cs-course" class="nav-link" data-scroll-target="#i.-list-of-id-and-name-of-student-taking-at-least-one-cs-course">i. List of ID and Name of student taking at least one CS course</a></li>
+  <li><a href="#ii.-add-the-grade-to-the-list" id="toc-ii.-add-the-grade-to-the-list" class="nav-link" data-scroll-target="#ii.-add-the-grade-to-the-list">ii. Add the grade to the list</a></li>
+  <li><a href="#iv---vi-find-the-list-of-instructor-with-highest-salary-in-each-department" id="toc-iv---vi-find-the-list-of-instructor-with-highest-salary-in-each-department" class="nav-link" data-scroll-target="#iv---vi-find-the-list-of-instructor-with-highest-salary-in-each-department">iv - vi Find the list of instructor with highest salary in each department</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -166,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ASSIGNMENT 2</h1>
+<h1 class="title">ASSIGNMENT 3</h1>
 </div>
 
 
@@ -183,81 +184,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="question-1" class="level1">
-<h1>Question 1</h1>
-<section id="relation-schema" class="level2">
-<h2 class="anchored" data-anchor-id="relation-schema">Relation Schema</h2>
-<p>Relation schema defines the logical structure of a table (relation) in a database without actual data. It describes the columns (attributes) also.</p>
-<p>Unlike relation instance, relation schema usually does not change over time.</p>
-<p>Example: university (school : string, building : string, contact : string)</p>
-</section>
-<section id="relation" class="level2">
-<h2 class="anchored" data-anchor-id="relation">Relation</h2>
-<p>A relation represents an actual table in a database. It is made up of a group of rows (tuples), following the structure defined by the relation schema.</p>
-<p>Example: university (school, building, email)</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>School</th>
-<th>Building</th>
-<th>Contact</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EPPS</td>
-<td>Green Hall</td>
-<td>469-123-4567</td>
-</tr>
-<tr class="even">
-<td>Engineering</td>
-<td>Erik Josson</td>
-<td>972-123-4567</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="relation-instance" class="level2">
-<h2 class="anchored" data-anchor-id="relation-instance">Relation Instance</h2>
-<p>Relation instance is a set of rows (tuples) in a given time frame. It may change with time as the relation is updated.</p>
-<p>Example: The university table has two records as instance at this moment. If the table gets updated (addition, modification, or deletion), the instance will change.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>School</th>
-<th>Building</th>
-<th>Contact</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EPPS</td>
-<td>Green Hall</td>
-<td><strong><em>469-987-6543</em></strong></td>
-</tr>
-<tr class="even">
-<td>Engineering</td>
-<td>Erik Josson</td>
-<td>972-123-4567</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
 <section id="question-2" class="level1">
 <h1>Question 2</h1>
-<p>Draw a schema diagram</p>
-<p><img src="images/clipboard-2016959080.png" class="img-fluid" width="513"></p>
+<section id="list-of-student-ids" class="level2">
+<h2 class="anchored" data-anchor-id="list-of-student-ids">List of student IDs</h2>
+<p>Syntax: select distinct ID from takes</p>
+<p><img src="_site/_site/images/assignment3_id.jpg" class="img-fluid"></p>
+</section>
+<section id="list-of-instructors" class="level2">
+<h2 class="anchored" data-anchor-id="list-of-instructors">List of Instructors</h2>
+<p>Syntax: select distinct Name from instructor</p>
+<p><img src="_site/_site/images/assignment3_instructor.jpg" class="img-fluid"></p>
+</section>
+<section id="list-of-departments" class="level2">
+<h2 class="anchored" data-anchor-id="list-of-departments">List of Departments</h2>
+<p>Syntax: select distinct dept_name from department</p>
+<p><img src="_site/_site/images/assignment3_department.jpg" class="img-fluid"></p>
+</section>
 </section>
 <section id="question-3" class="level1">
 <h1>Question 3</h1>
-<section id="the-primary-keys" class="level2">
-<h2 class="anchored" data-anchor-id="the-primary-keys">1 - The primary keys</h2>
-<p><img src="images/clipboard-2984938948.png" class="img-fluid" width="492"></p>
+<section id="i.-list-of-id-and-name-of-student-taking-at-least-one-cs-course" class="level3">
+<h3 class="anchored" data-anchor-id="i.-list-of-id-and-name-of-student-taking-at-least-one-cs-course">i. List of ID and Name of student taking at least one CS course</h3>
+<p>(no duplicate name)</p>
+<p><img src="_site/_site/images/assignment3_3icode.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_3itable.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
 </section>
-<section id="the-foreign-keys" class="level2">
-<h2 class="anchored" data-anchor-id="the-foreign-keys">2- The foreign keys</h2>
-<p><img src="images/clipboard-3373306134.png" class="img-fluid" width="497"></p>
+<section id="ii.-add-the-grade-to-the-list" class="level3">
+<h3 class="anchored" data-anchor-id="ii.-add-the-grade-to-the-list">ii. Add the grade to the list</h3>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_3iicode.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_3iitable.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="iv---vi-find-the-list-of-instructor-with-highest-salary-in-each-department" class="level3">
+<h3 class="anchored" data-anchor-id="iv---vi-find-the-list-of-instructor-with-highest-salary-in-each-department">iv - vi Find the list of instructor with highest salary in each department</h3>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_3ivcode.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p><img src="_site/_site/images/assignment3_3ivtable.jpg" class="img-fluid"></p>
+</section>
+<section id="question-4" class="level2">
+<h2 class="anchored" data-anchor-id="question-4">Question 4</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_4code.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="_site/_site/images/assignment3_4table.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
 
 
 </section>
