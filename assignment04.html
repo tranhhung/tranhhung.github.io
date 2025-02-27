@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ASSIGNMENT 1 – EPPS 6354 - GitHub Website</title>
+<title>ASSIGNMENT 4 – EPPS 6354 - GitHub Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -150,28 +150,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1">Question 1</a>
-  <ul class="collapse">
-  <li><a href="#amazon" id="toc-amazon" class="nav-link" data-scroll-target="#amazon">1. Amazon:</a></li>
-  <li><a href="#facebook" id="toc-facebook" class="nav-link" data-scroll-target="#facebook">2. Facebook</a></li>
-  <li><a href="#netflix" id="toc-netflix" class="nav-link" data-scroll-target="#netflix">3. Netflix</a></li>
-  </ul></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a>
-  <ul class="collapse">
-  <li><a href="#healthcare-management" id="toc-healthcare-management" class="nav-link" data-scroll-target="#healthcare-management">Healthcare Management</a>
-  <ul class="collapse">
-  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#functions" id="toc-functions" class="nav-link" data-scroll-target="#functions">Functions</a></li>
-  <li><a href="#interface-design" id="toc-interface-design" class="nav-link" data-scroll-target="#interface-design">Interface Design</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
-  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a>
-  <ul class="collapse">
-  <li><a href="#user-table" id="toc-user-table" class="nav-link" data-scroll-target="#user-table">User table</a></li>
-  <li><a href="#post-table" id="toc-post-table" class="nav-link" data-scroll-target="#post-table">Post table</a></li>
-  <li><a href="#reaction-table" id="toc-reaction-table" class="nav-link" data-scroll-target="#reaction-table">Reaction table</a></li>
-  </ul></li>
+  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
   </ul>
 </nav>
     </div>
@@ -180,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ASSIGNMENT 1</h1>
+<h1 class="title">ASSIGNMENT 4</h1>
 </div>
 
 
@@ -199,76 +179,110 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="question-1" class="level1">
 <h1>Question 1</h1>
-<section id="amazon" class="level2">
-<h2 class="anchored" data-anchor-id="amazon">1. Amazon:</h2>
-<p>This is one of the most popular application in the US. It has actively collected and taken advantages of millions of their customers, including me, to advance their revenue. They have analysed my history purchases, and search to manipulate my shopping habit.</p>
-<p>The history purchase provide them which products, manufacturers, price range, and categories I preferred to spend money on. Also, the time I usually went window shopping and decided to make payment is exposed to Amazon. According to those information, whenever I log into my Amazon account, the algorithms shows me a list of products, which they believe I will be interested to buy.</p>
-</section>
-<section id="facebook" class="level2">
-<h2 class="anchored" data-anchor-id="facebook">2. Facebook</h2>
-<p>Like Amazon, Facebook has collected my footprint on social media since I created an account on their platform. Everything I do on Facebook, from every pages or group I followed to every single thread I interacted via emocons or comments, gives out my personal references. It includes political bias, favorite images, destinations, and so on.</p>
-<p>However, unlike Amazon, Facebook usually sell my personal data to marketing firms. Those companies used those data to create a profile matching with all my preference. As a result, they can send out customized advertising campaigns or digital contents which might influence my decisions in their favor.</p>
-</section>
-<section id="netflix" class="level2">
-<h2 class="anchored" data-anchor-id="netflix">3. Netflix</h2>
-<p>Netflix has dominated streaming services for ages. Their revenue comes from monthly subscriptions around the world. The more users make commitment to their service every month, the more profit Netflix receive. Accordingly, they have analyzed my watching patterns.</p>
 <ul>
-<li><p>What types of movies or shows have I picked? Movies? Documentary series? Reality shows?</p></li>
-<li><p>What languages have I chosen for movies? with or without subtitle?</p></li>
-<li><p>Which category have I preferred? Comedy? Horror? Fantasy?</p></li>
+<li><p><strong>Strong entity set</strong> can be identified by its own super key. Example: police geography table is uniquely identified by Reporting_Area values.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Reporting_Area</th>
+<th>Beat</th>
+<th>Sector</th>
+<th>Division</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1234</td>
+<td>101</td>
+<td>100</td>
+<td>Central</td>
+</tr>
+<tr class="even">
+<td>5678</td>
+<td>101</td>
+<td>100</td>
+<td>Central</td>
+</tr>
+<tr class="odd">
+<td>9101</td>
+<td>101</td>
+<td>100</td>
+<td>Central</td>
+</tr>
+</tbody>
+</table></li>
+<li><p><strong>Weak entity set</strong> doesn’t have unique column to identify itself. The table relies on a <strong>strong entity set</strong> for identification. Example: recovered_veh table needs to use VIN from stolen_veh table to identify if the recovered vehicle is associated with any stolen vehicle incident across the city of Dallas.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>VIN</th>
+<th>Make</th>
+<th>Color</th>
+<th>Type</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>VIN123456789</td>
+<td>Toyota</td>
+<td>Green</td>
+<td>Sedan</td>
+<td>2/26/2025</td>
+</tr>
+<tr class="even">
+<td>VIN987654321</td>
+<td>Honda</td>
+<td>Grey</td>
+<td>Truck</td>
+<td>2/26/2025</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>VIN</th>
+<th>Incident</th>
+<th>Make</th>
+<th>Color</th>
+<th>Type</th>
+<th>Date1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>VIN123456789</td>
+<td>12345-2025</td>
+<td>Toyota</td>
+<td>Green</td>
+<td>Sedan</td>
+<td>1/4/2025</td>
+</tr>
+<tr class="even">
+<td>VIN987654321</td>
+<td>67890-2025</td>
+<td>Honda</td>
+<td>Grey</td>
+<td>Truck</td>
+<td>2/8/2025</td>
+</tr>
+</tbody>
+</table></li>
 </ul>
-<p>All of those help them to offer me good recommendation, or plan a reasonable purchase in future. On my end, I might find it satisfied with the Netflix library and continue to pay monthly subscription.</p>
 </section>
-</section>
-<section id="question-2" class="level1">
-<h1>Question 2</h1>
-<section id="healthcare-management" class="level2">
-<h2 class="anchored" data-anchor-id="healthcare-management">Healthcare Management</h2>
-<section id="purpose" class="level3">
-<h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
-<p>The application addresses if the medical care providers or facilities are in the network. It might help the insured know which charges are eligible for FSA reimbursement.</p>
-</section>
-<section id="functions" class="level3">
-<h3 class="anchored" data-anchor-id="functions">Functions</h3>
+<section id="question-3" class="level1">
+<h1>Question 3</h1>
+<p>a.i Appending <strong>natural join</strong> <em>sections</em> in the from clause will not change the result, because:</p>
 <ul>
-<li><p>Target audience? function to serve that audience?</p></li>
-<li><p>List of medical facilities within the network, including ER and Emergency rooms</p></li>
-<li><p>List of medical care providers, including doctors, specialists (dermatologist, anesthesiologist, etc)</p></li>
-<li><p>List of FSA qualified items and operations.</p></li>
+<li><p>only <em>course_id, sec_id, semester, year</em>, and average of <em>tot_cred</em> are selected for display.</p></li>
+<li><p><strong>natural join</strong> eliminated the duplicates columns from <em>sections</em> (<em>course_id, sec_id, semester, year</em>).</p></li>
 </ul>
-</section>
-<section id="interface-design" class="level3">
-<h3 class="anchored" data-anchor-id="interface-design">Interface Design</h3>
-<ul>
-<li><p>Input insurance plan (providers, plan type, account number)</p></li>
-<li><p>Input personal information</p></li>
-<li><p>Input facility location</p></li>
-<li><p>Input operation date and type</p></li>
-</ul>
-</section>
-</section>
-</section>
-<section id="question-4" class="level1">
-<h1>Question 4</h1>
-<p>NoSQL was created during 2000s to meet the increasing demand of flexibility, and scalability in new technology (Internet).</p>
-<p>Unlike traditional database, NoSQL does not have challenge in working with big and unstructured data on social media platform. It is also flexible enough to share the data across the server and to update the large-scale data on in real time.</p>
-</section>
-<section id="question-6" class="level1">
-<h1>Question 6</h1>
-<section id="user-table" class="level2">
-<h2 class="anchored" data-anchor-id="user-table">User table</h2>
-<p>The table stores personal information of the users, including username, date of birth, email, password.</p>
-</section>
-<section id="post-table" class="level2">
-<h2 class="anchored" data-anchor-id="post-table">Post table</h2>
-<p>The table has content created by the account owners, or the thread creators of the platfomr.</p>
-</section>
-<section id="reaction-table" class="level2">
-<h2 class="anchored" data-anchor-id="reaction-table">Reaction table</h2>
-<p>The table contain emocon sympbol for comments, including gif files, toward the post.</p>
+<p>a.ii</p>
+<p><img src="images/clipboard-417870920.png" class="img-fluid"></p>
+<p><img src="images/clipboard-885140366.png" class="img-fluid"></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
