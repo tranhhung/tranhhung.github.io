@@ -145,8 +145,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#database-purpose" id="toc-database-purpose" class="nav-link active" data-scroll-target="#database-purpose">1 – Database Purpose</a></li>
+  <li><a href="#schema-diagram" id="toc-schema-diagram" class="nav-link" data-scroll-target="#schema-diagram">2 – Schema Diagram</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -170,8 +177,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="database-purpose" class="level1">
+<h1>1 – Database Purpose</h1>
+<ul>
+<li><p>The database targets researchers, and planners who are interested in public safety or working on a plan for municipal governments within the city of Dallas.</p></li>
+<li><p>The database addresses how dynamic a few Targeted Action Area Grids (TAAG) looks within the city limit. The database help to analyze the crime incidents occurring at specific police beat, divisions. It also display which city councilmen or councilwomen is overlooking that target areas.</p></li>
+<li><p>Following tables might be used:</p></li>
+</ul>
+<p>§&nbsp; Active calls</p>
+<p>§&nbsp; Types of calls, incidents</p>
+<p>§&nbsp; Police geography (beats, divisions, etc.)</p>
+<p>§&nbsp; District Council</p>
+<ul>
+<li>Data Sources:</li>
+</ul>
+<p>§&nbsp; <a href="https://www.dallasopendata.com/browse?category=Public+Safety&amp;sortBy=relevance&amp;page=1&amp;pageSize=20">Dallas City Open Data Portal</a></p>
+</section>
+<section id="schema-diagram" class="level1">
+<h1>2 – Schema Diagram</h1>
+<ul>
+<li><strong>Schema Relation</strong></li>
+</ul>
+<p>§&nbsp; Active_Call (incident <em>varchar,</em> nibrs_code <em>varchar</em>, nibrs_crime <em>varchar</em>, response_date <em>date</em>, beats <em>int</em>, sector <em>int</em>, division <em>varchar</em>, date1 <em>date</em>)</p>
+<p>§&nbsp; Incident (incident_id <em>varchar</em>, incident <em>varchar</em>, edate <em>date</em>, date1 <em>date</em>)</p>
+<p>§&nbsp; NIBRS_Crime (nibrs_code <em>varchar</em>, nibrs_type <em>varchar</em>, nibrs_crime <em>varchar</em>)</p>
+<p>§&nbsp; TAAG (taag <em>varchar</em>, beat <em>int</em>, sec <em>int</em>, division <em>varchar</em>, neighborhood <em>varchar</em>, community <em>varchar</em>)</p>
+<p>§&nbsp; Police_Geo (beats <em>int</em>, sector <em>int</em>, division <em>varchar</em>, city <em>varchar</em>)</p>
+<p>§&nbsp; District_Council (district_council <em>varchar</em>, council_name <em>varchar</em>, district_id <em>int</em>)</p>
+<ul>
+<li><strong>Schema Diagram</strong></li>
+</ul>
+<p><img src="images/clipboard-3312790431.png" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
