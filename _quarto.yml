@@ -23,6 +23,8 @@ website:
             text: "Assignment 2"
           - href: assignment03.qmd
             text: "Assignment 3"
+          - href: assignment04.qmd
+            text: "Assignment 4"
 
 format:
   html:
