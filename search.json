@@ -145,5 +145,12 @@
     "title": "PROJECT PROPOSAL",
     "section": "",
     "text": "1 – Database Purpose\n\nThe database targets researchers, and planners who are interested in public safety or working on a plan for municipal governments within the city of Dallas.\nThe database addresses how dynamic a few Targeted Action Area Grids (TAAG) looks within the city limit. The database help to analyze the crime incidents occurring at specific police beat, divisions. It also display which city councilmen or councilwomen is overlooking that target areas.\nFollowing tables might be used:\n\n§  Active calls\n§  Types of calls, incidents\n§  Police geography (beats, divisions, etc.)\n§  District Council\n\nData Sources:\n\n§  Dallas City Open Data Portal\n\n\n2 – Schema Diagram\n\nSchema Relation\n\n§  Active_Call (incident varchar, nibrs_code varchar, nibrs_crime varchar, response_date date, beats int, sector int, division varchar, date1 date)\n§  Incident (incident_id varchar, incident varchar, edate date, date1 date)\n§  NIBRS_Crime (nibrs_code varchar, nibrs_type varchar, nibrs_crime varchar)\n§  TAAG (taag varchar, beat int, sec int, division varchar, neighborhood varchar, community varchar)\n§  Police_Geo (beats int, sector int, division varchar, city varchar)\n§  District_Council (district_council varchar, council_name varchar, district_id int)\n\nSchema Diagram"
+  },
+  {
+    "objectID": "assignment05.html",
+    "href": "assignment05.html",
+    "title": "ASSIGNMENT 5",
+    "section": "",
+    "text": "Question 1\nAn E-R diagram can be viewed as a graph. For the structure of an interprise schema:\n\nA disconnected graph implies that there are parts of the E-R diagram that are not connected to others.\nA cycle in the E-R diagram means that starting from one entity, you can follow a series of relationships and return to the same entity.\n\n\n\nQuestion 3\nWe use weak entity to display real-world relationships among entities. One (weak) entity needs another (strong) entity to justify its existence. Also, it also help simplify the database design by reducing unnecessary attributes added into the weak entity.\n\n\nQuestion 4\n\nselect e.ID, e.person_name from employee as e\ninner join company as c on e.city = c.city\noder by e.ID desc\nselect e.ID, e.person_name from (employee as e\ninner join company as c on e.city = c.city"
   }
 ]
