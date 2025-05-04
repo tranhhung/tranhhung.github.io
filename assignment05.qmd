@@ -1,0 +1,27 @@
+---
+title: "ASSIGNMENT 5"
+---
+
+# Question 1
+
+An E-R diagram can be viewed as a graph. For the structure of an interprise schema:
+
+a)  A disconnected graph implies that there are parts of the E-R diagram that are not connected to others.
+
+b)  A cycle in the E-R diagram means that starting from one entity, you can follow a series of relationships and return to the same entity.
+
+# Question 3
+
+We use weak entity to display real-world relationships among entities. One (weak) entity needs another (strong) entity to justify its existence. Also, it also help simplify the database design by reducing unnecessary attributes added into the weak entity.
+
+# Question 4
+
+1.  select e.ID, e.person_name from employee as e
+
+    inner join company as c on e.city = c.city
+
+    oder by e.ID desc
+
+2.  select e.ID, e.person_name from (employee as e
+
+    inner join company as c on e.city = c.city
