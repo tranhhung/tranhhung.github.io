@@ -159,5 +159,33 @@
     "title": "FINAL PROJECT",
     "section": "",
     "text": "https://hunghtran.shinyapps.io/ViolentCrime/"
+  },
+  {
+    "objectID": "assignment06.html",
+    "href": "assignment06.html",
+    "title": "ASSIGNMENT 6",
+    "section": "",
+    "text": "JSON website\n\nBooking.com: Employs JSON for dynamic content loading and API responses. The website is heavily used JavaScript manipulate and display data.\n\nXML website\n\nNOAA.gov: Offers weather data in XML format."
+  },
+  {
+    "objectID": "assignment06.html#question-01",
+    "href": "assignment06.html#question-01",
+    "title": "ASSIGNMENT 6",
+    "section": "",
+    "text": "JSON website\n\nBooking.com: Employs JSON for dynamic content loading and API responses. The website is heavily used JavaScript manipulate and display data.\n\nXML website\n\nNOAA.gov: Offers weather data in XML format."
+  },
+  {
+    "objectID": "assignment06.html#question-02",
+    "href": "assignment06.html#question-02",
+    "title": "ASSIGNMENT 6",
+    "section": "Question 02",
+    "text": "Question 02\nselect ID from student except select s id from advisor where i ID is not null oder by studentname desc"
+  },
+  {
+    "objectID": "assignment06.html#question-03",
+    "href": "assignment06.html#question-03",
+    "title": "ASSIGNMENT 6",
+    "section": "Question 03",
+    "text": "Question 03"
   }
 ]
