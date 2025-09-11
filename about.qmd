@@ -1,0 +1,10 @@
+---
+title: "About"
+---
+
+This GitHub repository serves as a platform for submitting assignments.
+
+Created by Hung Tran
+
+```{}
+```
