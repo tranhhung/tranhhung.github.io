@@ -1,7 +1,0 @@
----
-title: "About"
----
-
-Created by Hung Tran.
-
-![](images/clipboard-3957668371.png)
