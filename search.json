@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPPS 3656 - Data Visualization",
+    "section": "",
+    "text": "Fall 2025"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "The website features assignments, projects, along with short reviews of educational videos from the EPPS 6356. Each post highlights key concepts, lessons learned, and illustrates how the material connects to the course content.\n\nCreated by Hung Tran."
+  },
+  {
+    "objectID": "blog01.html",
+    "href": "blog01.html",
+    "title": "Data Visualization: Journalistic vs. Academic",
+    "section": "",
+    "text": "After watching McGhee, Geoff. 2011. Journalism in the Age of Data, I realized that while journalism and academia both rely on data visualization to interpret the world, their approaches are strikingly different.\nIn both fields, professionals aim to extract meaning from raw numbers, combining different types of data to make them more relevant and engaging for their audiences. The shared goal is clear: to help data communicate more effectively.\nWhere they differ strongly is in how they address their audiences. In academia, data is often presented through sophisticated charts and colorful patterns. While these visuals can be elegant, they usually require background knowledge to interpret. For the general public, this can be overwhelming or frustrating, limiting the reach of academic work to a narrower audience.\nJournalism, on the other hand, uses data to “tell a story.” Journalists understand that their readers—students, office workers, homemakers—may not have much free time. As a result, they focus on concise, accessible presentations that allow people to grasp the main message in seconds or minutes. This makes journalism highly effective for daily updates and ensures broader public reach.\nStill, this doesn’t mean journalism is always more effective. The need for speed and brevity can lead to oversimplification, poor visualization, or even misleading interpretations due to limited time for deeper research or thorough quality checks. Academic visualization, by contrast, often involves years of careful work to minimize errors, resulting in higher-quality insights better suited for long-term knowledge and development."
+  },
+  {
+    "objectID": "blog02.html",
+    "href": "blog02.html",
+    "title": "The Future of Data Analysis",
+    "section": "",
+    "text": "Data is more than just numbers—it tells a story. And as analysts, we are the ones responsible for how that story is told. In Microsoft Machine Learning & Data Science Summit, 2016, Dr. Edward Tufte delivered a keynote that was both inspiring and challenging.\nOne of Tufte’s strongest points was his insistence on grounding analysis in what he called the “real sciences.” He pointed to the study of nature and the science of maps—fields rooted in physical reality—as gold standards of truth. Nature, he argued, offers facts that apply universally and cannot be bent by opinion. Human behavior, on the other hand, is messy, dynamic, and often unpredictable—“harder than rocket science,” in his words.\nTufte also cautioned analysts to approach their work with “an open mind, but not an empty head.” In other words, we should be receptive to new ideas and methods, but never adopt them blindly. Models and algorithms are powerful, but they are also prone to error. The analyst’s role is not only to generate insights but to question them, refine them, and correct them when they fall short.\nThroughout his keynote, Tufte returned to a central theme: the unshakable relationship between evidence and conclusion. No matter how advanced our tools become—new visualization technologies, faster hardware, or cutting-edge models—our responsibility is to ensure that proven facts take precedence over public opinion. He invoked Galileo as a reminder that truth, when supported by evidence, stands firm even in the face of widespread skepticism.\nIn the end, Tufte’s vision of the future wasn’t about shiny new dashboards or trendy models—it was about integrity. Data science, he argued, must remain anchored in truth, evidence, and clarity. As analysts, that is both our challenge and our duty."
+  }
+]
