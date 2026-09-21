@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Assignments"
+        menu:
+        - text: "Assignment 01"
+          href: assignment01.qmd
+        - text: "Assignment 02"
+          href: assignment02.qmd
+        - text: "Assignment 03 & 04"
+          href: assignment03.qmd
+        - text: "Assignment 05"
+          href: assignment05.qmd
+        - text: "Assignment 06"
+          href: assignment06.qmd
+      - text: "Group Project"
+        menu: 
+        - text: "Project Proposal"
+          href: projectproposal.qmd
+    right:
+      - text: "About Me"
+        href: about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
