@@ -1,2 +1,2 @@
 # tranhhung.github.io
-Github Website for EPPS 6356 - Data Visualization
+Github Website for Fall 2026 - EPPS 6302 - Methods of Data Collection and Production
