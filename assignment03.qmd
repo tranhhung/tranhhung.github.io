@@ -1,8 +1,4 @@
 ---
-title: "Assignment 03 & 04: Hackathon by team"
+title: "Assignment 03:"
 format: html
 ---
-
-[Assignment 03](https://martinezjoseph0517.github.io/october9.html): Replicate the Scatterplot Matrix
-
-[Assignment 04](https://martinezjoseph0517.github.io/October10.html): Chart Generated with R Graphics or ggplot2.
