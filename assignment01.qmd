@@ -1,0 +1,7 @@
+---
+title: "Assignment 01: Create a Quarto Website"
+---
+
+The GitHub website was created, using Quarto in R Studio.
+
+<http://tranhhung.github.io/>
